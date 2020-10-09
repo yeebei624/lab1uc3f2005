@@ -23,7 +23,7 @@
         <?php  
         $connectionInfo = array("UID" => "APUAdmin", "pwd" => "Sixfourtwo624", "Database" => "APULab2Exercise",
         "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
-        $serverName = "tcp:lab2exercisetp049935.database.windows.net,1433";
+        $serverName = "lab2exercisetp049935.database.windows.net";
         $conn = sqlsrv_connect($serverName, $connectionInfo);
         //Establishes the connection
         $conn = sqlsrv_connect($serverName, $connectionOptions);
